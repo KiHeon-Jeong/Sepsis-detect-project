@@ -1,0 +1,27 @@
+﻿# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+.env.*
+# MIMIC data artifacts (do not publish patient-level data)
+*.csv
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# Docs exported from private workflows (optional)
+# *.docx

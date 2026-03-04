@@ -1,0 +1,32 @@
+﻿# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+.env.*
+# Training outputs / artifacts
+models/
+checkpoints/
+artifacts/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Data artifacts
+*.csv
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
